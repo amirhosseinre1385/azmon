@@ -21,10 +21,10 @@ p{
 	width:800px;
 	height:800px;
 	font-size:24px;
-	border: 15px solid #AF52E8;
+	border: 15px solid #01E6E2;
 	padding:auto;
 	margin:auto;
-	background-color:#5A5DE8;
+	background-color:#19BBFF;
 	text-align:justify;
 	border-radius:10px;
 }
@@ -32,6 +32,7 @@ p{
 	color:white;
 	text-align:center;
 	line-height:auto;
+	padding:10px;
 }
 .line{
 	line-height:50px;
