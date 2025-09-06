@@ -1,0 +1,46 @@
+body{
+	background-color:158AFF;
+}
+h1{
+	background-color:black;
+	color:red;
+	padding:20px;
+	text-decoration:underline;
+}
+p{
+	font-size:32px;
+	margin:20px;
+	padding:20px;
+}
+div{
+	width:800px;
+	height:800px;
+	font-size:24px;
+	border: 15px solid green;
+	padding:auto;
+	margin:auto;
+	background-color:blue;
+	text-align:justify;
+	border-radius:10px;
+}
+.center{
+	text-align:center;
+	line-height:auto;
+}
+.line{
+	line-height:50px;
+	word-spacing:10px;
+	text-shadow:1px 1px 2px red;
+}
+footer{
+	font-family:dana;
+	background-color:FFC81C;
+	margin:20px;
+	padding:10px;
+	line-height:50px;
+	color:red;
+	width:auto;
+	height:auto;
+	border:2px dashed black;
+	box-sizing:border-box;
+}
