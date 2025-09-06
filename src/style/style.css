@@ -7,8 +7,8 @@ body{
 	font-family:farka;
 }
 h1{
-	background-color:blue;
-	color:red;
+	background-color:#FB6DFC;
+	color:#E82B2B;
 	padding:20px;
 	text-decoration:underline;
 }
@@ -21,26 +21,27 @@ p{
 	width:800px;
 	height:800px;
 	font-size:24px;
-	border: 15px solid green;
+	border: 15px solid #AF52E8;
 	padding:auto;
 	margin:auto;
-	background-color:blue;
+	background-color:#5A5DE8;
 	text-align:justify;
 	border-radius:10px;
 }
 .center{
+	color:white;
 	text-align:center;
 	line-height:auto;
 }
 .line{
 	line-height:50px;
 	word-spacing:10px;
-	text-shadow:1px 1px 2px red;
+	text-shadow:1px 1px 2px #DBB1E5;
 	margin: 20px;
 }
 footer{
 	font-family:dana;
-	background-color:#FFC81C;
+	background-color:#FF7033;
 	margin:20px;
 	padding:10px;
 	line-height:50px;
