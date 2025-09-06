@@ -3,11 +3,11 @@
 	src:url("./src/font/Far_KamrnBd.ttf") format("truetype");
 }
 body{
-	background-color:158AFF;
+	background-color:#158AFF;
 	font-family:farka;
 }
 h1{
-	background-color:black;
+	background-color:blue;
 	color:red;
 	padding:20px;
 	text-decoration:underline;
@@ -17,7 +17,7 @@ p{
 	margin:20px;
 	padding:20px;
 }
-div{
+.body{
 	width:800px;
 	height:800px;
 	font-size:24px;
@@ -36,10 +36,11 @@ div{
 	line-height:50px;
 	word-spacing:10px;
 	text-shadow:1px 1px 2px red;
+	margin: 20px;
 }
 footer{
 	font-family:dana;
-	background-color:FFC81C;
+	background-color:#FFC81C;
 	margin:20px;
 	padding:10px;
 	line-height:50px;
@@ -49,3 +50,4 @@ footer{
 	border:2px dashed black;
 	box-sizing:border-box;
 }
+uiuit
