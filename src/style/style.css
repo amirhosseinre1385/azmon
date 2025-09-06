@@ -1,5 +1,10 @@
+@font-face{
+	font-family:"farka";
+	src:url("./src/font/Far_KamrnBd.ttf") format("truetype");
+}
 body{
 	background-color:158AFF;
+	font-family:farka;
 }
 h1{
 	background-color:black;
