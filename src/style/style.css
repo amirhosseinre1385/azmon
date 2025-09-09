@@ -6,6 +6,43 @@ body{
 	background-color:#158AFF;
 	font-family:farka;
 }
+.but{
+	display: flex;
+	gap: 30px;
+}
+.but1{
+	width: 100px;
+	height: 80px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color:#158AFF;
+}
+.but1:hover{
+	width: 90px;
+	height: 70px;
+}
+.but2{
+	width: 100px;
+	height: 80px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color:#158AFF;
+}
+.but2:hover{
+	width: 90px;
+	height: 70px;
+}
+.but3{
+	width: 100px;
+	height: 80px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color:#158AFF;
+}
+.but3:hover{
+	width: 90px;
+	height: 70px;
+}
 h1{
 	background-color:#FB6DFC;
 	color:#E82B2B;
@@ -60,7 +97,7 @@ p{
 .box1{
 	position: absolute;
 	right: 780px;
-	bottom: 235px;
+	bottom: 145px;
 	left: 100px;
 	border-radius: 20px;
 }
@@ -72,7 +109,7 @@ p{
 .box2{
 	position: absolute;
 	right: 1150px;
-	bottom: 235px;
+	bottom: 145px;
 	left: 90px;
 	border-radius: 20px;
 }
@@ -92,6 +129,7 @@ p{
 	background-color:#19BBFF;
 	text-align:justify;
 	border-radius:10px;
+	overflow: auto;
 }
 .info{
 	color:white;
