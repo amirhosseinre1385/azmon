@@ -175,5 +175,21 @@ ul{
 	color:indianred;
 	list-style-image:url("../img/icon.svg") ;
 	list-style-position: inside;
+/*	display: none; */
+}
+.check:checked + .alert{
+	display: block;
+}
+.alert{
 	display: none;
+}
+.alert{
+	color: black;
+	margin: 0px 20px;
+	padding: 0px;
+	font-size: 20px;
+}
+.check{
+	width: 20px;
+	height: 20px;
 }
