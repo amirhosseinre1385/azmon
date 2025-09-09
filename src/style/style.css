@@ -2,6 +2,9 @@
 	font-family:"farka";
 	src:url("./src/font/Far_KamrnBd.ttf") format("truetype");
 }
+::selection{
+	background-color:#E7C5CC
+}
 body{
 	background-color:#158AFF;
 	font-family:farka;
@@ -60,6 +63,9 @@ p{
 	font-size:32px;
 	margin:30px;
 	padding:20px;
+}
+.opa{
+	opacity: 0.9;
 }
 .img1{
 	width: 300px;
@@ -193,3 +199,18 @@ ul{
 	width: 20px;
 	height: 20px;
 }
+/*
+.but1::before{
+	content: "از سایت راضی هستید";
+	font-size: 20px;
+	padding: 20 px;
+	margin: 20px;
+	overflow: hidden;
+}
+*/
+/*
+[TYPE=TEXT]{
+
+}
+تمامی تگ هایی که اتریبیوت تکس دارند
+*/
