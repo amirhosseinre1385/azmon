@@ -14,18 +14,81 @@ h1{
 	border-radius:20px;
 	margin:30px;
 }
+h1:hover{
+	color:darkred;
+	background-color: deeppink;
+	padding: 20px;
+}
 p{
 	font-size:32px;
 	margin:30px;
 	padding:20px;
+}
+.img1{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 30px;
+	margin-right:40px;
+	border-radius: 20px;
+}
+.img1:hover{
+	width: 320px;
+	height: 220px;
+	margin-bottom: 30px;
+}
+.img2{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 30px;
+	margin-right: 70px;
+	border-radius: 20px;
+}
+.img2:hover{
+	width: 320px;
+	height: 220px;
+	margin-bottom: 30px;
+}
+.box1,.box2{
+	width: 320px;
+	height: 200px;
+	background-color: #63F6FC;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 180px;
+}
+.box1{
+	position: absolute;
+	right: 780px;
+	bottom: 235px;
+	left: 100px;
+	border-radius: 20px;
+}
+.box1:hover{
+	width: 320px;
+	height: 220px;
+	margin-bottom: 30px;
+}
+.box2{
+	position: absolute;
+	right: 1150px;
+	bottom: 235px;
+	left: 90px;
+	border-radius: 20px;
+}
+.box2:hover{
+	width: 320px;
+	height: 220px;
+	margin-bottom: 30px;
 }
 .main{
 	width:800px;
 	height:800px;
 	font-size:24px;
 	border: 15px solid #01E6E2;
-	padding:auto;
+	padding-top: 0px;
 	margin:auto;
+	margin-top: 20px;
 	background-color:#19BBFF;
 	text-align:justify;
 	border-radius:10px;
@@ -53,4 +116,26 @@ p{
 	height:auto;
 	border:2px dashed black;
 	box-sizing:border-box;
+}
+a{
+	color:black;
+	font-size: 30px;
+	padding: 30px;
+	margin: 30px;
+	display: block;
+}
+a:active{
+	color:#158AFF;
+	font-size: 24px;
+}
+a:visited{
+	color:blueviolet;
+	font-size: 30px;
+}
+ul{
+	font-size: 30px;
+	color:indianred;
+	list-style-image:url("../img/icon.svg") ;
+	list-style-position: inside;
+	display: none;
 }
