@@ -14,8 +14,8 @@ body{
 	gap: 30px;
 }
 .but1{
-	width: 100px;
-	height: 80px;
+	width:calc(400px - 300px);
+	height:min(80px , 300px, 90px);
 	font-size: 20px;
 	border-radius: 10px;
 	background-color:#158AFF;
@@ -148,6 +148,13 @@ p{
 	word-spacing:10px;
 	text-shadow:1px 1px 2px #E7C5CC;
 	margin: 20px;
+}
+.bg{
+	width: 400px;
+	height: 400px;
+	margin: 20px auto 0;
+	background-image: linear-gradient(to right bottom, red ,blue);
+	box-shadow: 2px 2px 14px #A8CEE8 inset;
 }
 .footer{
 	font-family:dana;
