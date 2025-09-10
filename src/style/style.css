@@ -148,6 +148,9 @@ p{
 	word-spacing:10px;
 	text-shadow:1px 1px 2px #E7C5CC;
 	margin: 20px;
+/* white-space: nowrap; */
+/* overflow: hidden; */
+/* text-overflow: ellipsis; */
 }
 .bg{
 	width: 400px;
