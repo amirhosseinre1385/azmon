@@ -70,65 +70,44 @@ p{
 }
 .opa{
 	opacity: 0.9;
+	display: flex;
+	width: 1200px;
+	height: 400px;
+	gap: 30px;
+	margin: 20px;
+	padding: 20px;
 }
-.img1{
-	width: 300px;
-	height: 200px;
-	margin-bottom: 30px;
-	margin-right:40px;
-	border-radius: 20px;
-}
-.img1:hover{
-	width: 320px;
-	height: 220px;
-	margin-bottom: 30px;
-	transform: rotate(30deg);
-}
-.img2{
-	width: 300px;
-	height: 200px;
-	margin-bottom: 30px;
-	margin-right: 70px;
-	border-radius: 20px;
-}
-.img2:hover{
-	width: 320px;
-	height: 220px;
-	margin-bottom: 30px;
-	transform: skew(10deg);
-}
-.box1,.box2{
-	width: 320px;
-	height: 200px;
+.img1, .img2{
+	width: 100%;
 	background-color: #63F6FC;
 	margin-bottom: 20px;
 	font-size: 24px;
 	text-align: center;
 	line-height: 180px;
+	border-radius: 20px;
 }
-.box1{
-	position: absolute;
-	right: 780px;
-	bottom: 145px;
-	left: 100px;
+.img1:hover{
+	margin-bottom: 30px;
+	transform: rotate(30deg);
+}
+.img2:hover{
+	margin-bottom: 30px;
+	transform: skew(10deg);
+}
+.box1,.box2{
+	width: 100%;
+	background-color: #63F6FC;
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 180px;
 	border-radius: 20px;
 }
 .box1:hover{
-	width: 320px;
-	height: 220px;
 	margin-bottom: 30px;
 	transform: translatex(10px);
 }
-.box2{
-	position: absolute;
-	right: 1150px;
-	bottom: 145px;
-	left: 90px;
-	border-radius: 20px;
-}
 .box2:hover{
-	width: 320px;
-	height: 220px;
 	margin-bottom: 30px;
 	transform: matrix(60px);
 }
@@ -235,3 +214,33 @@ ul{
 }
 تمامی تگ هایی که اتریبیوت تکس دارند
 */
+@media screen and (min-width: 998px){
+	.check{
+		width: 50px;
+		height: 50px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.opa{
+		flex-wrap: wrap;
+	}
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-color:var(--bgcolor);
+	margin: 30px auto;
+	animation-name: circle-ani;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes circle-ani {
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1);
+		opacity: 0;
+	}
+}
