@@ -2,6 +2,9 @@
 	font-family:"farka";
 	src:url("./src/font/Far_KamrnBd.ttf") format("truetype");
 }
+:root{
+	--bgcolor: #4E00E8;
+}
 ::selection{
 	background-color:#E7C5CC
 }
@@ -19,10 +22,10 @@ body{
 	font-size: 20px;
 	border-radius: 10px;
 	background-color:#158AFF;
+	transition: all 250ms ease-in 150ms ;
 }
 .but1:hover{
-	width: 90px;
-	height: 70px;
+	transform: scale(0.5);
 }
 .but2{
 	width: 100px;
@@ -30,10 +33,10 @@ body{
 	font-size: 20px;
 	border-radius: 10px;
 	background-color:#158AFF;
+	transition: all 250ms ease-in 150ms ;
 }
 .but2:hover{
-	width: 90px;
-	height: 70px;
+	transform: scale(0.5);
 }
 .but3{
 	width: 100px;
@@ -41,10 +44,10 @@ body{
 	font-size: 20px;
 	border-radius: 10px;
 	background-color:#158AFF;
+	transition: all 250ms ease-in 150ms ;
 }
 .but3:hover{
-	width: 90px;
-	height: 70px;
+	transform: scale(0.5);
 }
 h1{
 	background-color:#FB6DFC;
@@ -53,11 +56,12 @@ h1{
 	text-decoration:underline;
 	border-radius:20px;
 	margin:30px;
+	transition: all 250ms ease-in 150ms ;
 }
 h1:hover{
 	color:darkred;
 	background-color: deeppink;
-	padding: 20px;
+	transform: scale(0.8);
 }
 p{
 	font-size:32px;
@@ -78,6 +82,7 @@ p{
 	width: 320px;
 	height: 220px;
 	margin-bottom: 30px;
+	transform: rotate(30deg);
 }
 .img2{
 	width: 300px;
@@ -90,6 +95,7 @@ p{
 	width: 320px;
 	height: 220px;
 	margin-bottom: 30px;
+	transform: skew(10deg);
 }
 .box1,.box2{
 	width: 320px;
@@ -111,6 +117,7 @@ p{
 	width: 320px;
 	height: 220px;
 	margin-bottom: 30px;
+	transform: translatex(10px);
 }
 .box2{
 	position: absolute;
@@ -123,6 +130,7 @@ p{
 	width: 320px;
 	height: 220px;
 	margin-bottom: 30px;
+	transform: matrix(60px);
 }
 .main{
 	width:800px;
@@ -148,9 +156,6 @@ p{
 	word-spacing:10px;
 	text-shadow:1px 1px 2px #E7C5CC;
 	margin: 20px;
-/* white-space: nowrap; */
-/* overflow: hidden; */
-/* text-overflow: ellipsis; */
 }
 .bg{
 	width: 400px;
@@ -161,7 +166,7 @@ p{
 }
 .footer{
 	font-family:dana;
-	background-color:#FA69FC;
+	background-color: var(--bgcolor);
 	margin:40px 10px 0px 10px;
 	padding:10px;
 	line-height:50px;
@@ -170,6 +175,12 @@ p{
 	height:auto;
 	border:2px dashed black;
 	box-sizing:border-box;
+}
+.end-text{
+	font-size: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 a{
 	color:black;
@@ -183,7 +194,7 @@ a:active{
 	font-size: 24px;
 }
 a:visited{
-	color:blueviolet;
+	color:rgb(0, 0, 0);
 	font-size: 30px;
 }
 ul{
